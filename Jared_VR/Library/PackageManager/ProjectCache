@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR/Packages/manifest.json
+    m_FilePath: C:/Users/USER/Desktop/Unity/Aimer/Jared_VR/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638603784791473467
+      ticks: 638604845722376069
     m_Hash: 3667800533
   m_LockFileStatus:
-    m_FilePath: C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR/Packages/packages-lock.json
+    m_FilePath: C:/Users/USER/Desktop/Unity/Aimer/Jared_VR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638603784791473467
+      ticks: 638604845722386044
     m_Hash: 1058068662
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.5.7
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.collab-proxy@1.5.7
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -33,7 +33,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 
+      category: Editor
       type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
@@ -114,8 +114,6 @@ m_PackageAssets:
         - 2.1.0
         - 2.2.0
         - 2.3.1
-        - 2.4.3
-        - 2.4.4
         compatible:
         - 1.5.7
         - 1.6.0
@@ -187,7 +185,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -246,7 +244,6 @@ m_PackageAssets:
         - 3.0.26
         - 3.0.27
         - 3.0.28
-        - 3.0.31
         compatible:
         - 1.0.2
         - 1.0.6
@@ -290,7 +287,6 @@ m_PackageAssets:
         - 3.0.26
         - 3.0.27
         - 3.0.28
-        - 3.0.31
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -330,7 +326,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.8
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -435,7 +431,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -508,7 +504,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.0
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.inputsystem@1.3.0
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.inputsystem@1.3.0
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -570,8 +566,6 @@ m_PackageAssets:
         - 1.8.0
         - 1.8.1
         - 1.8.2
-        - 1.9.0
-        - 1.10.0
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -619,8 +613,6 @@ m_PackageAssets:
         - 1.8.0
         - 1.8.1
         - 1.8.2
-        - 1.9.0
-        - 1.10.0
         verified: 1.0.2
       dependencies:
       - name: com.unity.modules.uielements
@@ -670,7 +662,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -678,7 +670,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 
+      category: Unity Test Framework
       type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
@@ -733,7 +725,6 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
-        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -760,7 +751,6 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
-        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -808,7 +798,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -816,7 +806,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 
+      category: Text Rendering
       type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
@@ -995,7 +985,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1141,18 +1131,18 @@ m_PackageAssets:
         - 1.8.7
         verified: 1.4.8
       dependencies:
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.audio
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
@@ -1252,7 +1242,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.2.16
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.management@3.2.16
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.management@3.2.16
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -1322,7 +1312,6 @@ m_PackageAssets:
         - 4.3.3
         - 4.4.0
         - 4.4.1
-        - 4.5.0
         compatible:
         - 4.0.1
         - 4.0.3
@@ -1340,13 +1329,11 @@ m_PackageAssets:
         - 4.4.1
         verified: 4.0.7
       dependencies:
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.2
-      resolvedDependencies:
       - name: com.unity.subsystemregistration
         version: 1.0.6
+      resolvedDependencies:
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.7
       - name: com.unity.modules.vr
@@ -1359,6 +1346,8 @@ m_PackageAssets:
         version: 1.0.0
       - name: com.unity.modules.subsystems
         version: 1.0.0
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
       keywords:
       - xr
       - sdk
@@ -1392,7 +1381,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.4
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.oculus@1.3.4
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.oculus@1.3.4
       assetPath: Packages/com.unity.xr.oculus
       name: com.unity.xr.oculus
       displayName: Oculus XR Plugin
@@ -1487,7 +1476,6 @@ m_PackageAssets:
         - 4.2.0-exp-env-depth.1
         - 4.2.0-exp-env-depth.2
         - 4.2.0
-        - 4.3.0-pre.1
         compatible:
         - 1.9.1
         - 1.10.0-preview.1
@@ -1500,21 +1488,13 @@ m_PackageAssets:
         - 1.12.1
         verified: 1.9.1
       dependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
       - name: com.unity.xr.management
         version: 3.0.6
-      resolvedDependencies:
       - name: com.unity.ugui
         version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
+      resolvedDependencies:
       - name: com.unity.xr.management
         version: 3.2.16
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.7
       - name: com.unity.modules.vr
@@ -1526,6 +1506,14 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
         version: 1.0.0
       keywords:
       - oculus
@@ -3298,65 +3286,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.subsystemregistration@1.0.6
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.6
-      source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.subsystemregistration@1.0.6
-      assetPath: Packages/com.unity.subsystemregistration
-      name: com.unity.subsystemregistration
-      displayName: Subsystem Registration
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides internal registration mechanism for standalone subsystems. 
-        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.6
-        - 1.1.0
-        compatible:
-        - 1.0.6
-        - 1.1.0
-        verified: 1.1.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - subsystem
-      - registration
-      - internal
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
-        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
-        path: 
     - packageId: com.unity.xr.legacyinputhelpers@2.1.7
       testable: 0
       isDirectDependency: 0
       version: 2.1.7
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -3422,12 +3357,65 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
         revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
         path: 
+    - packageId: com.unity.subsystemregistration@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.subsystemregistration@1.0.6
+      assetPath: Packages/com.unity.subsystemregistration
+      name: com.unity.subsystemregistration
+      displayName: Subsystem Registration
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides internal registration mechanism for standalone subsystems. 
+        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.6
+        - 1.1.0
+        compatible:
+        - 1.0.6
+        - 1.1.0
+        verified: 1.1.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - subsystem
+      - registration
+      - internal
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
+        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
+        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 1
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3435,7 +3423,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 
+      category: Libraries
       type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
@@ -3496,7 +3484,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: C:\Users\ALUMNO\Desktop\VR\Aimer\Jared_VR\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\USER\Desktop\Unity\Aimer\Jared_VR\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3549,5 +3537,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR/Packages
+m_ProjectPath: C:/Users/USER/Desktop/Unity/Aimer/Jared_VR/Packages
 m_EditorVersion: 2020.3.10f1 (297d780c91bc)

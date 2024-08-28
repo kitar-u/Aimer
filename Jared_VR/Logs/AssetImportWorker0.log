@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22631.4037; Version 2009; 64bit' Language: 'es' Physical Memory: 32656 MB
+OS: 'Windows 10 Pro; OS build 19045.4780; Version 2009; 64bit' Language: 'es' Physical Memory: 32637 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,563 +11,143 @@ C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR
+C:/Users/USER/Desktop/Unity/Aimer/Jared_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62679
-Successfully changed project path to: C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR
-C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR
+63537
+Successfully changed project path to: C:/Users/USER/Desktop/Unity/Aimer/Jared_VR
+C:/Users/USER/Desktop/Unity/Aimer/Jared_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.79 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 37.76 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ALUMNO/Desktop/VR/Aimer/Jared_VR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/Unity/Aimer/Jared_VR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   
-    VRAM:     12110 MB
-    Driver:   32.0.15.6081
+    VRAM:     10053 MB
+    Driver:   32.0.15.5612
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001159 seconds.
+Registered in 0.001703 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 32.56 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
+- Completed reload, in  1.610 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003339 seconds.
+Registered in 0.004201 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.39 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 31.80 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.6 MB.
 System memory in use after: 88.7 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2432.
-Total: 1.956800 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.674600 ms  DeleteObjects: 0.055400 ms)
+Total: 2.520300 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.109800 ms MarkObjects: 2.134900 ms  DeleteObjects: 0.057700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Util/Prefabs/XR Rig Advanced.prefab
-  artifactKey: Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Util/Prefabs/XR Rig Advanced.prefab using Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317b0178ee133f19d5707e7ae33fa005') in 0.255884 seconds
-  Import took 0.266141 seconds .
+  path: Assets/Util
+  artifactKey: Guid(7389987a505a74a459aeafb234496030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util using Guid(7389987a505a74a459aeafb234496030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48d37bf89f94c4cd65d2529b54040f') in 0.010840 seconds
+  Import took 0.014222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Util/Prefabs/PistolInfinite (2).prefab
-  artifactKey: Guid(642d0b265594959408648a343199b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Util/Prefabs/PistolInfinite (2).prefab using Guid(642d0b265594959408648a343199b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dd0b2a28c27405cc017f3286044b9d') in 0.051023 seconds
-  Import took 0.054635 seconds .
+  Time since last request: 8.348681 seconds.
+  path: Assets/Util/Models
+  artifactKey: Guid(a7e1472850c33a94ab2e1aa3801d2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models using Guid(a7e1472850c33a94ab2e1aa3801d2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d94eaa1d7097a2fbb18760dea1b45') in 0.005478 seconds
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.855047 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a401e5ae5818b4b6f2d7605b8f58961') in 0.699166 seconds
+  Import took 0.702356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.604121 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd863c501d56165958c4a6727a0450c40') in 0.547717 seconds
+  Import took 0.550859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.322443 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea85925fbebd88cfbde35de28d141f') in 0.375674 seconds
+  Import took 0.378827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.510065 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c2ff07294c4ee79a0becef8792240b') in 0.500211 seconds
+  Import took 0.503523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.225046 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6a1e7f4f893b14e911a210c88a3909') in 0.509315 seconds
+  Import took 0.512299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.117794 seconds.
+  path: Assets/Util/Models/lowpoly building.fbx
+  artifactKey: Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Util/Models/lowpoly building.fbx using Guid(0cdad58bfbc05e4469d1eccb6a2a2b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44403d301e5cfbd21c78a8b7b3fc6d1a') in 0.534558 seconds
+  Import took 0.537622 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003167 seconds.
+Registered in 0.004338 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
+- Completed reload, in  0.781 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1968 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.0 MB.
+System memory in use before: 92.4 MB.
+System memory in use after: 92.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2452.
-Total: 2.349300 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.012200 ms  DeleteObjects: 0.028300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 478.696431 seconds.
-  path: Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab
-  artifactKey: Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab using Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2af4805df0f9c3baef112d81bb476a') in 0.111145 seconds
-  Import took 0.115108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab
-  artifactKey: Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab using Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2af4805df0f9c3baef112d81bb476a') in 0.027924 seconds
-  Import took 0.031503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.969847 seconds.
-  path: Assets/BNG Framework/Sounds/1911.aiff
-  artifactKey: Guid(727ff3abbdb797f45b714a1795efc4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/1911.aiff using Guid(727ff3abbdb797f45b714a1795efc4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2341e59d18f73c834cd445c5db2de8') in 0.019668 seconds
-  Import took 0.023006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/BNG Framework/Sounds/bow_sounds.wav
-  artifactKey: Guid(94a1f6335bc1ce441bf6dd56040e511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/bow_sounds.wav using Guid(94a1f6335bc1ce441bf6dd56040e511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02587fe24074102f8012313dcbb24436') in 0.068553 seconds
-  Import took 0.071094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/BNG Framework/Sounds/drawer_open.wav
-  artifactKey: Guid(ce05e62bb84e37e41b711bc1cc93abb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/drawer_open.wav using Guid(ce05e62bb84e37e41b711bc1cc93abb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd8744b711a5d9acf059346a3a3aa10') in 0.011472 seconds
-  Import took 0.014116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/BNG Framework/Sounds/metal.wav
-  artifactKey: Guid(2bade6f2da8b58943974fb39b460192b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/metal.wav using Guid(2bade6f2da8b58943974fb39b460192b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8538f8bfeb815f9ca16a06b386fe0c') in 0.011690 seconds
-  Import took 0.014614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/BNG Framework/Sounds/thrust.wav
-  artifactKey: Guid(1e1e0acc404bbd241a7722f4cf3df741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/thrust.wav using Guid(1e1e0acc404bbd241a7722f4cf3df741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6338b0f014a54a1a069741ef16c51ea') in 0.016322 seconds
-  Import took 0.019418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/BNG Framework/Sounds/idle.wav
-  artifactKey: Guid(9c9ad49c9ea59fe48a25237995617419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/idle.wav using Guid(9c9ad49c9ea59fe48a25237995617419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a524553cc1a57914f6b969a72009d63d') in 0.018843 seconds
-  Import took 0.021984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/BNG Framework/Sounds/rifle.aiff
-  artifactKey: Guid(6b23ba5ed1da95140b52f6863122d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/rifle.aiff using Guid(6b23ba5ed1da95140b52f6863122d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfb55b43c1a471da9fec7f5bc2af8d8') in 0.010879 seconds
-  Import took 0.013940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/BNG Framework/Sounds/shotgun_shot.wav
-  artifactKey: Guid(34b530c1e1e9915459e34ff783bd7434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/shotgun_shot.wav using Guid(34b530c1e1e9915459e34ff783bd7434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8335b71f349dee0a160671545689e7ae') in 0.013475 seconds
-  Import took 0.016264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/BNG Framework/Sounds/crank.wav
-  artifactKey: Guid(29164d686358d9540be161a7b3df01d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/crank.wav using Guid(29164d686358d9540be161a7b3df01d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9520f0b2402e5975418aef60936656') in 0.014122 seconds
-  Import took 0.016976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/BNG Framework/Sounds/switch_off.wav
-  artifactKey: Guid(5602338fc0b4a3149a1b5bb57217426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/switch_off.wav using Guid(5602338fc0b4a3149a1b5bb57217426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8aae99204a61f09eaf3087d41d36da') in 0.014055 seconds
-  Import took 0.017333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/BNG Framework/Sounds/impact_small.wav
-  artifactKey: Guid(139ef2d853962e14f836c51a778b76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/impact_small.wav using Guid(139ef2d853962e14f836c51a778b76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1d965853d557654ff3978025bd333c') in 0.011863 seconds
-  Import took 0.014430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/BNG Framework/Sounds/drop.wav
-  artifactKey: Guid(3264b135b94635f42a09d672b19cae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/drop.wav using Guid(3264b135b94635f42a09d672b19cae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cafdb1e6b905836ec9ffaf89dc64a72') in 0.010671 seconds
-  Import took 0.013465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/BNG Framework/Sounds/motor.wav
-  artifactKey: Guid(df7caf1aee3e2494ca099f3b2ec4d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/motor.wav using Guid(df7caf1aee3e2494ca099f3b2ec4d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6d70de014eebeae7921884700fe1fe') in 0.019221 seconds
-  Import took 0.021976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/BNG Framework/Sounds/saber_on.wav
-  artifactKey: Guid(b47a019ee8ba9244fa90f05a3e70d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/saber_on.wav using Guid(b47a019ee8ba9244fa90f05a3e70d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096949264d2cdda53a60d69816903aa2') in 0.016295 seconds
-  Import took 0.019098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/BNG Framework/Sounds/ping_pong.wav
-  artifactKey: Guid(c3c23571cca573440960064e88619de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/ping_pong.wav using Guid(c3c23571cca573440960064e88619de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c904a1593e51ac04fecfe732c4b3a1c') in 0.011009 seconds
-  Import took 0.013766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/BNG Framework/Sounds/explosion.wav
-  artifactKey: Guid(34881276bdc11ca4d908b74d23802d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/explosion.wav using Guid(34881276bdc11ca4d908b74d23802d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc1ac5151cd494db7a95043b2720605') in 0.013457 seconds
-  Import took 0.016217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/BNG Framework/Sounds/switch_on.wav
-  artifactKey: Guid(96a66c8233acdff40a72e102fc819781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/switch_on.wav using Guid(96a66c8233acdff40a72e102fc819781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8346d2327359d023d8e212f39d97b1c2') in 0.012084 seconds
-  Import took 0.014986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/BNG Framework/Sounds/door_open.wav
-  artifactKey: Guid(24b79582593d6b943ae5a57d8058d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/door_open.wav using Guid(24b79582593d6b943ae5a57d8058d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eb9f70375acaa0d7e2f22c46136c26') in 0.013049 seconds
-  Import took 0.015915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/BNG Framework/Sounds/door_close.wav
-  artifactKey: Guid(19363979333a0f740b2e9601b323dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/door_close.wav using Guid(19363979333a0f740b2e9601b323dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397ccb9e2ea74c4fec33f2bf02339690') in 0.012682 seconds
-  Import took 0.015407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/BNG Framework/Sounds/click.wav
-  artifactKey: Guid(3ceadf14726b0864fb39bb646c0f9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/click.wav using Guid(3ceadf14726b0864fb39bb646c0f9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9bc4ca38244fe9d29a39621c54380c') in 0.017144 seconds
-  Import took 0.020275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/BNG Framework/Sounds/drawer_close.wav
-  artifactKey: Guid(127159e0d23a7a940a2e84c7a7b19ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/drawer_close.wav using Guid(127159e0d23a7a940a2e84c7a7b19ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d58a525d94d2003ad7161eaedb70438') in 0.013489 seconds
-  Import took 0.016381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/BNG Framework/Sounds/impact_small2.wav
-  artifactKey: Guid(30ef761f6d7153845addf7410feca63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/impact_small2.wav using Guid(30ef761f6d7153845addf7410feca63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb807e057b93168099197ce8425039a4') in 0.013485 seconds
-  Import took 0.016622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/BNG Framework/Sounds/silenced.wav
-  artifactKey: Guid(83dc0287d0634ed4cb587d44b592210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/silenced.wav using Guid(83dc0287d0634ed4cb587d44b592210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7aebf9f32cff46e14b5f081d69ad63') in 0.012468 seconds
-  Import took 0.015238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/BNG Framework/Sounds/knob.wav
-  artifactKey: Guid(f2dc589f7839f104cb317f751adf6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/knob.wav using Guid(f2dc589f7839f104cb317f751adf6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68ce093fbe43fd17f4f2b3da37ca4aa') in 0.013693 seconds
-  Import took 0.016441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/BNG Framework/Sounds/tang.wav
-  artifactKey: Guid(a47420325cec16d4098463a7f0a1eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/tang.wav using Guid(a47420325cec16d4098463a7f0a1eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdd369a4d559878f27d733d3ec789ca') in 0.011576 seconds
-  Import took 0.014441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/BNG Framework/Sounds/click2.wav
-  artifactKey: Guid(2fd08de76faac0d46a95ff13ae5d85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/click2.wav using Guid(2fd08de76faac0d46a95ff13ae5d85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9c1745506c33bdc3277c5c0ef066a0') in 0.013866 seconds
-  Import took 0.016825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/BNG Framework/Sounds/casing.wav
-  artifactKey: Guid(ba9840947c7ac514bb44b20a444375b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/casing.wav using Guid(ba9840947c7ac514bb44b20a444375b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8589a895433cae19c4e9735ae8ce50fd') in 0.014924 seconds
-  Import took 0.017814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/BNG Framework/Sounds/shatter.wav
-  artifactKey: Guid(777628d7e05d20145aebd47cd0d71c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/shatter.wav using Guid(777628d7e05d20145aebd47cd0d71c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc673737032303b35a2de2d76fb03bf') in 0.015737 seconds
-  Import took 0.018734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/BNG Framework/Sounds/destroy_planks.wav
-  artifactKey: Guid(e71c7226156faaf48a502a780882908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/destroy_planks.wav using Guid(e71c7226156faaf48a502a780882908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389d4a0055f258dcb7b4e05fb8d7b81c') in 0.012774 seconds
-  Import took 0.015795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/BNG Framework/Sounds/shotgun_shell.wav
-  artifactKey: Guid(ce1bc772676325b46bc66b857a196e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/shotgun_shell.wav using Guid(ce1bc772676325b46bc66b857a196e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b660894517de95f39a2c98071bdc6') in 0.010677 seconds
-  Import took 0.014054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/BNG Framework/Sounds/ball_bounce.wav
-  artifactKey: Guid(d7aef00ca89522f4ab3de348747d62d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/ball_bounce.wav using Guid(d7aef00ca89522f4ab3de348747d62d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9e202c8d0060873489c8edfbb0b681') in 0.010603 seconds
-  Import took 0.013529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/BNG Framework/Sounds/saber_hum.wav
-  artifactKey: Guid(621e7d180a1c9ce4089315790a1ff4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/saber_hum.wav using Guid(621e7d180a1c9ce4089315790a1ff4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86004553b27ed428b07492bb24776f45') in 0.017814 seconds
-  Import took 0.020617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/BNG Framework/Sounds/concrete.wav
-  artifactKey: Guid(591a2c55f8ede0142b25830c33286848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/concrete.wav using Guid(591a2c55f8ede0142b25830c33286848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d7544cc1063f3c9a21cf2426888625') in 0.011218 seconds
-  Import took 0.014244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/BNG Framework/Sounds/launch.wav
-  artifactKey: Guid(5b096d3829195954e959ce0ec63ca481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/launch.wav using Guid(5b096d3829195954e959ce0ec63ca481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6392d8680efea3758eba880b607f656') in 0.011873 seconds
-  Import took 0.014788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/BNG Framework/Sounds/drop-reverse.wav
-  artifactKey: Guid(8a4a5bd0b5270024ca91ab9d88bce279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/drop-reverse.wav using Guid(8a4a5bd0b5270024ca91ab9d88bce279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d6669436773cb4a644b20c51831229') in 0.011015 seconds
-  Import took 0.013828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/BNG Framework/Sounds/slide.wav
-  artifactKey: Guid(f6ba2c16c86180148906c2b6840404ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Sounds/slide.wav using Guid(f6ba2c16c86180148906c2b6840404ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de319c7872dd2476618c67d93f85cc71') in 0.011767 seconds
-  Import took 0.014554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.398270 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/CustomHandLeftBlackNew.prefab
-  artifactKey: Guid(ecc46461c8f4fa24a8a38952937da6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/CustomHandLeftBlackNew.prefab using Guid(ecc46461c8f4fa24a8a38952937da6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc4234e461c38bd1116f6b7beea1c2d') in 0.040525 seconds
-  Import took 0.044566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/Green Gloves Left.prefab
-  artifactKey: Guid(79777ae0bfe4829409a6a8db9a83b871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/Green Gloves Left.prefab using Guid(79777ae0bfe4829409a6a8db9a83b871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783c337605253aff8a1d2b9ca51d0759') in 0.027755 seconds
-  Import took 0.031631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/RightPhysicalHand.prefab
-  artifactKey: Guid(c783a657a1cbcdf4fa7da5c062d7df69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/RightPhysicalHand.prefab using Guid(c783a657a1cbcdf4fa7da5c062d7df69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514c622c8fccfc5b641d5f36fa476001') in 0.040523 seconds
-  Import took 0.044250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/LeftPhysicalHand.prefab
-  artifactKey: Guid(0d8f4c896a916b74a8eb165eae678267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/LeftPhysicalHand.prefab using Guid(0d8f4c896a916b74a8eb165eae678267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce737fe76857dc44b51549c26b1c3d93') in 0.029879 seconds
-  Import took 0.033746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/Green Gloves Right.prefab
-  artifactKey: Guid(c2ba382097f06114c8ca184c7f00afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/Green Gloves Right.prefab using Guid(c2ba382097f06114c8ca184c7f00afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37368bbc55a926b2a6a8094b91b6d9f') in 0.033506 seconds
-  Import took 0.037275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/BNG Framework/Prefabs/Hands/CustomHandRightBlackNew.prefab
-  artifactKey: Guid(92afbc4d9bafa95428a9081fbdb93c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Prefabs/Hands/CustomHandRightBlackNew.prefab using Guid(92afbc4d9bafa95428a9081fbdb93c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549c9dd1e85209ecf823a727c5932fb') in 0.024363 seconds
-  Import took 0.028071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.187424 seconds.
-  path: Assets/BNG Framework/Models/Hands/darkV03_hand.png
-  artifactKey: Guid(ffab4c12024ba964abb234756aca0253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/darkV03_hand.png using Guid(ffab4c12024ba964abb234756aca0253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6026b2232fc6501fb8aec60282d5dfee') in 0.027250 seconds
-  Import took 0.030447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/BNG Framework/Models/Hands/handDark.mat
-  artifactKey: Guid(ae0be99e46b86674184a4d2cac834552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/handDark.mat using Guid(ae0be99e46b86674184a4d2cac834552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f613c23fc055e498d9026f71a9bfe2b7') in 0.029761 seconds
-  Import took 0.032396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Diffuse02.png
-  artifactKey: Guid(7970a7baf5d8c9a4484a5c31ca0920d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Diffuse02.png using Guid(7970a7baf5d8c9a4484a5c31ca0920d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13e3072d811fa505084276574ff8db') in 0.010846 seconds
-  Import took 0.013733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/BNG Framework/Models/Hands/mid_hand.png
-  artifactKey: Guid(ece39b9b42587524cbabf26097291ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/mid_hand.png using Guid(ece39b9b42587524cbabf26097291ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9833db73c03435ac716d23d2799eff') in 0.012175 seconds
-  Import took 0.015478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab
-  artifactKey: Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab using Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04c8bdb66c76e1fac0400b451853d6') in 0.029490 seconds
-  Import took 0.033046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx
-  artifactKey: Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx using Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab30edcb8789d8690c8566a2e3b705b9') in 0.047352 seconds
-  Import took 0.050292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/BNG Framework/Models/Hands/lightV03_hand.png
-  artifactKey: Guid(51218e73a2662d04fbb8bd9e7f7482ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/lightV03_hand.png using Guid(51218e73a2662d04fbb8bd9e7f7482ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba63d8f234c4a4774fa14bfcf35e7f') in 0.010686 seconds
-  Import took 0.013442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Height.png
-  artifactKey: Guid(7ee653d17994d6247803e9d89fa1f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Height.png using Guid(7ee653d17994d6247803e9d89fa1f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4fb8101aaa2e3c8b7e1f720695f306') in 0.010842 seconds
-  Import took 0.013983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Normal.png
-  artifactKey: Guid(5259b6cedd7f2e240b7a78aa26e137a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/golves_low_golves_matt_Normal.png using Guid(5259b6cedd7f2e240b7a78aa26e137a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2d2af1bdda951b834d94b86420a7f6') in 0.012699 seconds
-  Import took 0.015483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/BNG Framework/Models/Hands/phong3.mat
-  artifactKey: Guid(0dbf0f193879a11408be31ef3a13ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/phong3.mat using Guid(0dbf0f193879a11408be31ef3a13ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb1980ec9b1988be496a0b52445b186') in 0.013180 seconds
-  Import took 0.015935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/BNG Framework/Models/Hands/phong4.mat
-  artifactKey: Guid(b9f6f361e2936314db523dcd84265a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/phong4.mat using Guid(b9f6f361e2936314db523dcd84265a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f799f252c76599c4a8fcc19b7e94be6') in 0.014648 seconds
-  Import took 0.017570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/BNG Framework/Models/Hands/phong2.mat
-  artifactKey: Guid(12dc05bc461264e40aa58240d9538398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BNG Framework/Models/Hands/phong2.mat using Guid(12dc05bc461264e40aa58240d9538398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7a129451efc77869d469e8d2ebd381') in 0.011826 seconds
-  Import took 0.014647 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1968 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.6 MB.
-System memory in use after: 107.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2498.
-Total: 1.996000 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.758200 ms  DeleteObjects: 0.014600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2479.
+Total: 1.514400 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.299500 ms  DeleteObjects: 0.010900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
