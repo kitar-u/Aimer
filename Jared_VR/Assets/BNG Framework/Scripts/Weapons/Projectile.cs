@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace BNG {
+namespace BNG
+{
 
     /// <summary>
     /// An object than do damage and play hit FX
     /// </summary>
-    public class Projectile : MonoBehaviour {
+    public class Projectile : MonoBehaviour
+    {
 
         public GameObject HitFXPrefab;
         private bool _checkRaycast;
@@ -31,25 +33,34 @@ namespace BNG {
         [Tooltip("Unity Event called when the projectile damages something")]
         public UnityEvent onDealtDamageEvent;
 
-        private void OnCollisionEnter(Collision collision) {
+        private bool hasBounced = false;
+
+        private void OnCollisionEnter(Collision collision)
+        {
             OnCollisionEvent(collision);
         }
 
-        public virtual void OnCollisionEvent(Collision collision) {
+        public virtual void OnCollisionEvent(Collision collision)
+        {
             // Ignore Triggers
-            if (collision.collider.isTrigger) {
+            if (collision.collider.isTrigger)
+            {
                 return;
             }
 
             Rigidbody rb = GetComponent<Rigidbody>();
-            if (rb && MinForceHit != 0) {
+            if (rb && MinForceHit != 0)
+            {
                 float zVel = System.Math.Abs(transform.InverseTransformDirection(rb.velocity).z);
 
                 // Minimum Force not achieved
-                if (zVel < MinForceHit) {
+                if (zVel < MinForceHit)
+                {
                     return;
                 }
             }
+
+
 
             Vector3 hitPosition = collision.contacts[0].point;
             Vector3 normal = collision.contacts[0].normal;
@@ -61,14 +72,28 @@ namespace BNG {
 
             // Damage if possible
             Damageable d = collision.collider.GetComponent<Damageable>();
-            if (d) {
+            if (d)
+            {
                 d.DealDamage(Damage, hitPosition, normal, true, gameObject, collision.collider.gameObject);
 
-                if (onDealtDamageEvent != null) {
+                if (onDealtDamageEvent != null)
+                {
                     onDealtDamageEvent.Invoke();
                 }
             }
 
+            if (!hasBounced)
+            {
+                Bounce(collision.contacts[0].normal);
+                hasBounced = true;
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
+
+
+            /*
             if (StickToObject) {
                 // tryStickToObject
             }
@@ -76,22 +101,37 @@ namespace BNG {
                 // Done with this projectile
                 Destroy(this.gameObject);
             }
+             */
         }
 
-        public virtual void DoHitFX(Vector3 pos, Quaternion rot, Collider col) {
+        private void Bounce(Vector3 collisionNormal)
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                Vector3 reflectDir = Vector3.Reflect(rb.velocity + rb.position, collisionNormal);
+                rb.velocity = reflectDir;
+            }
+        }
+
+        public virtual void DoHitFX(Vector3 pos, Quaternion rot, Collider col)
+        {
 
             // Create FX at impact point / rotation
-            if(HitFXPrefab) {
+            if (HitFXPrefab)
+            {
                 GameObject impact = Instantiate(HitFXPrefab, pos, rot) as GameObject;
                 BulletHole hole = impact.GetComponent<BulletHole>();
-                if (hole) {
+                if (hole)
+                {
                     hole.TryAttachTo(col);
                 }
             }
 
             // push object if rigidbody
             Rigidbody hitRigid = col.attachedRigidbody;
-            if (hitRigid != null) {
+            if (hitRigid != null)
+            {
                 hitRigid.AddForceAtPosition(transform.forward * AddRigidForce, pos, ForceMode.VelocityChange);
             }
         }
@@ -99,16 +139,19 @@ namespace BNG {
         /// <summary>
         /// A projectile can be converted into a raycast if time reverts to full speed (or more)
         /// </summary>
-        public virtual void MarkAsRaycastBullet() {
+        public virtual void MarkAsRaycastBullet()
+        {
             _checkRaycast = true;
             StartCoroutine(CheckForRaycast());
         }
-        
-        public virtual void DoRayCastProjectile() {
+
+        public virtual void DoRayCastProjectile()
+        {
 
             // Raycast to hit
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.forward, out hit, 25f, ValidLayers, QueryTriggerInteraction.Ignore)) {
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 25f, ValidLayers, QueryTriggerInteraction.Ignore))
+            {
                 Quaternion decalRotation = Quaternion.FromToRotation(Vector3.forward, hit.normal);
                 DoHitFX(hit.point, decalRotation, hit.collider);
             }
@@ -119,10 +162,13 @@ namespace BNG {
             Destroy(this.gameObject);
         }
 
-        IEnumerator CheckForRaycast() {
-            while(this.gameObject.activeSelf && _checkRaycast) {
+        IEnumerator CheckForRaycast()
+        {
+            while (this.gameObject.activeSelf && _checkRaycast)
+            {
                 // Switch to raycast
-                if (Time.timeScale >= 1) {
+                if (Time.timeScale >= 1)
+                {
                     DoRayCastProjectile();
                 }
 
